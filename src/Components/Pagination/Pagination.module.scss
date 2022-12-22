@@ -1,0 +1,28 @@
+.container {
+    // border: 2px solid red;
+    margin-top: 2rem;
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+    }
+
+    .pagination-container {
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 2rem;
+
+        .pagination-block {
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 1px;
+            cursor: pointer;
+        }
+    }
+}
