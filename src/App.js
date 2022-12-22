@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from './Components/Navbar/NavBar';
 import Resource from './pages/Resource/Resource';
@@ -7,7 +7,7 @@ import CreateItem from './pages/CreateItems/CreateItems';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <Routes>
@@ -15,7 +15,7 @@ function App() {
           <Route path="/create" element={<CreateItem />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
