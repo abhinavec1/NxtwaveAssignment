@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NxtwaveAssignment/static/css/main.191dea56.css",
+    "main.js": "/NxtwaveAssignment/static/js/main.ed996b94.js",
+    "static/media/image9.png": "/NxtwaveAssignment/static/media/image9.1e9b2443bd8549f4baba.png",
+    "index.html": "/NxtwaveAssignment/index.html",
+    "main.191dea56.css.map": "/NxtwaveAssignment/static/css/main.191dea56.css.map",
+    "main.ed996b94.js.map": "/NxtwaveAssignment/static/js/main.ed996b94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.191dea56.css",
+    "static/js/main.ed996b94.js"
+  ]
+}
